@@ -32,7 +32,7 @@ let card_suit = [
     ['<img src="Images/9_of_clubs.png">','<img src="Images/9_of_diamonds.png">','<img src="Images/9_of_hearts.png">','<img src="Images/9_of_spades.png">'],
     ['<img src="Images/10_of_clubs.png">','<img src="Images/10_of_diamonds.png">','<img src="Images/10_of_hearts.png">','<img src="Images/10_of_spades.png">'],
     ['<img src="Images/jack_of_clubs2.png">','<img src="Images/jack_of_diamonds2.png">','<img src="Images/jack_of_hearts2.png">','<img src="Images/jack_of_spades2.png">'],
-    ['<img src="Images/jqueen_of_clubs2.png">','<img src="Images/jqueen_of_diamonds2.png">','<img src="Images/jqueen_of_hearts2.png">','<img src="Images/jqueen_of_spades2.png">'],
+    ['<img src="Images/queen_of_clubs2.png">','<img src="Images/queen_of_diamonds2.png">','<img src="Images/queen_of_hearts2.png">','<img src="Images/queen_of_spades2.png">'],
     ['<img src="Images/king_of_clubs2.png">','<img src="Images/king_of_diamonds2.png">','<img src="Images/king_of_hearts2.png">','<img src="Images/king_of_spades2.png">'],
 ]
 
