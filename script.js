@@ -21,19 +21,19 @@ let messageEl = document.getElementById('message-el')
 let card_num =   [1,2,3,4,5,6,7,8,9,10,11,12,13]
 let card_value = [1,2,3,4,5,6,7,8,9,10,10,10,10]
 let card_suit = [
-    ['<img src="ace_of_clubs.png">','<img src="ace_of_diamonds.png">','<img src="ace_of_hearts.png">','<img src="ace_of_spades2.png">'],
-    ['<img src="2_of_clubs.png">','<img src="2_of_diamonds.png">','<img src="2_of_hearts.png">','<img src="2_of_spades.png">'],
-    ['<img src="3_of_clubs.png">','<img src="3_of_diamonds.png">','<img src="3_of_hearts.png">','<img src="3_of_spades.png">'],
-    ['<img src="4_of_clubs.png">','<img src="4_of_diamonds.png">','<img src="4_of_hearts.png">','<img src="4_of_spades.png">'],
-    ['<img src="5_of_clubs.png">','<img src="5_of_diamonds.png">','<img src="5_of_hearts.png">','<img src="5_of_spades.png">'],
-    ['<img src="6_of_clubs.png">','<img src="6_of_diamonds.png">','<img src="6_of_hearts.png">','<img src="6_of_spades.png">'],
-    ['<img src="7_of_clubs.png">','<img src="7_of_diamonds.png">','<img src="7_of_hearts.png">','<img src="7_of_spades.png">'],
-    ['<img src="8_of_clubs.png">','<img src="8_of_diamonds.png">','<img src="8_of_hearts.png">','<img src="8_of_spades.png">'],
-    ['<img src="9_of_clubs.png">','<img src="9_of_diamonds.png">','<img src="9_of_hearts.png">','<img src="9_of_spades.png">'],
-    ['<img src="10_of_clubs.png">','<img src="10_of_diamonds.png">','<img src="10_of_hearts.png">','<img src="10_of_spades.png">'],
-    ['<img src="jack_of_clubs2.png">','<img src="jack_of_diamonds2.png">','<img src="jack_of_hearts2.png">','<img src="jack_of_spades2.png">'],
-    ['<img src="queen_of_clubs2.png">','<img src="queen_of_diamonds2.png">','<img src="queen_of_hearts2.png">','<img src="queen_of_spades2.png">'],
-    ['<img src="king_of_clubs2.png">','<img src="king_of_diamonds2.png">','<img src="king_of_hearts2.png">','<img src="king_of_spades2.png">'],
+    ['<img src="Images/ace_of_clubs.png">','<img src="Images/ace_of_diamonds.png">','<img src="Images/ace_of_hearts.png">','<img src="Images/ace_of_spades2.png">'],
+    ['<img src="Images/2_of_clubs.png">','<img src="Images/2_of_diamonds.png">','<img src="Images/2_of_hearts.png">','<img src="Images/2_of_spades.png">'],
+    ['<img src="Images/3_of_clubs.png">','<img src="Images/3_of_diamonds.png">','<img src="Images/3_of_hearts.png">','<img src="Images/3_of_spades.png">'],
+    ['<img src="Images/4_of_clubs.png">','<img src="Images/4_of_diamonds.png">','<img src="Images/4_of_hearts.png">','<img src="Images/4_of_spades.png">'],
+    ['<img src="Images/5_of_clubs.png">','<img src="Images/5_of_diamonds.png">','<img src="Images/5_of_hearts.png">','<img src="Images/5_of_spades.png">'],
+    ['<img src="Images/6_of_clubs.png">','<img src="Images/6_of_diamonds.png">','<img src="Images/6_of_hearts.png">','<img src="Images/6_of_spades.png">'],
+    ['<img src="Images/7_of_clubs.png">','<img src="Images/7_of_diamonds.png">','<img src="Images/7_of_hearts.png">','<img src="Images/7_of_spades.png">'],
+    ['<img src="Images/8_of_clubs.png">','<img src="Images/8_of_diamonds.png">','<img src="Images/8_of_hearts.png">','<img src="Images/8_of_spades.png">'],
+    ['<img src="Images/9_of_clubs.png">','<img src="Images/9_of_diamonds.png">','<img src="Images/9_of_hearts.png">','<img src="Images/9_of_spades.png">'],
+    ['<img src="Images/10_of_clubs.png">','<img src="Images/10_of_diamonds.png">','<img src="Images/10_of_hearts.png">','<img src="Images/10_of_spades.png">'],
+    ['<img src="Images/jack_of_clubs2.png">','<img src="Images/jack_of_diamonds2.png">','<img src="Images/jack_of_hearts2.png">','<img src="Images/jack_of_spades2.png">'],
+    ['<img src="Images/jqueen_of_clubs2.png">','<img src="Images/jqueen_of_diamonds2.png">','<img src="Images/jqueen_of_hearts2.png">','<img src="Images/jqueen_of_spades2.png">'],
+    ['<img src="Images/king_of_clubs2.png">','<img src="Images/king_of_diamonds2.png">','<img src="Images/king_of_hearts2.png">','<img src="Images/king_of_spades2.png">'],
 ]
 
 function dealerRandomCard() {

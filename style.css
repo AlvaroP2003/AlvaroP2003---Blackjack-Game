@@ -15,7 +15,7 @@
 body {
     position: relative;
     border: solid black 10px;
-    background-image: url(background1.avif);
+    background-image: url(Images/background1.avif);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
