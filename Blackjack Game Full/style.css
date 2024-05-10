@@ -1,0 +1,234 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --main :#A46928;
+    --second : #E4A700;
+    --red1 : #c70000;
+    --red2 : #7B1414;
+    --main_blur:rgba(43, 43, 43,0.9);
+}
+
+body {
+    position: relative;
+    border: solid black 10px;
+    background-image: url(background1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#ace-choice {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main_blur);
+    position: absolute;
+
+    width: 500px;
+    height: 300px;
+
+    margin: auto;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    z-index: 1;
+}
+
+#ace-choice .num_opt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: rgb(182, 182, 182);
+    border: none;
+    margin: 10px;
+    width: 80px;
+    height: 120px;
+
+    transition: 0.3s
+}
+
+#ace-choice .num_opt:hover {
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1.2);
+}
+
+#ace-choice p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+    font-size: 40px;
+    color: var(--second);
+}
+
+#dealer-icon, #sum-el {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80px;
+    height: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid var(--second);
+    background-color: black;
+    color: var(--second);
+    border-radius: 55px;
+}
+
+#dealer-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 235px;
+}
+
+#dealer-cards img {
+    height: 180px;
+    margin: 5px 10px;
+}
+
+#main-sec {
+    height: 200px;
+}
+
+#my-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 235px;
+}
+
+#my-cards img {
+    height: 180px;
+    margin: 5px 10px;
+
+    transition: 0.2s;
+}
+
+#my-cards img:hover {
+    transform: translateY(-10px);
+}
+
+.btn-area {
+    border-top: solid var(--second);
+    background-color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-btn {
+    font-size: 25px;
+    padding: 5px 15px;
+    margin: 10px 20px;
+
+    background-color: var(--red2);
+    color: var(--second);
+    border: solid var(--second) 2px;
+    border-radius: 10px;
+}
+
+.play-btn:active {
+    transform: scale(0.9);
+}
+
+.play-btn:hover {
+    background-color: var(--red1);
+}
+
+.dealer_sum_area {
+    display: flex;
+    justify-content: center;
+}
+
+.dealer_sum_area div {
+    border-bottom: solid var(--second);
+    border-right: solid var(--second);
+    border-left: solid var(--second);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main_blur);
+    height: 100px;
+    width: 500px;
+    border-radius: 0px 0px 175px 175px;
+}
+
+.my_sum_area {
+    display: flex;
+    justify-content: center;
+}
+
+.my_sum_area div{
+    border-top: solid var(--second);
+    border-right: solid var(--second);
+    border-left: solid var(--second);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main_blur);
+    height: 100px;
+    width: 500px;
+    border-radius:175px 175px 0px 0px;
+}
+
+#main-sec {
+    position: relative;
+    background-color: var(--main_blur);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+h1 {
+    font-size: 60px;
+    color: var(--second);
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-bottom: solid var(--second);
+}
+
+#start-btn {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    background-color: var(--red2);
+    color: var(--second);
+    border: solid var(--second) 2px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    letter-spacing: 5px;
+}
+
+#start-btn:hover {
+    background-color: var(--red1);
+}
+
+#start-btn:active {
+    transform: scale(0.9);
+}
+
+#message-el {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}

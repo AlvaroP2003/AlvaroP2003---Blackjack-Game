@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="ace-choice">
+        <button class="num_opt" id="one">1</button>
+        <p>OR</p>
+        <button class="num_opt" id="eleven">11</button>
+    </div>
+
+    <h1>~ BLACKJACK ~ </h1>
+    <div class="dealer_sum_area">
+        <div>
+            <div id="dealer-icon">
+                DEALER
+            </div>
+        </div>
+    </div>
+   <div id="dealer-cards">
+   
+   </div>
+
+   <div id="main-sec">
+        <button id="start-btn">NEW GAME</button>
+        <h2 id="message-el"> Want to play a game?</h2>
+    </div>
+
+
+
+   <div id="my-cards">
+
+   </div>
+
+   <div class="my_sum_area">
+        <div>
+            <div id="sum-el">
+                PLAYER
+            </div>
+        </div>
+    </div>
+
+   <div class="btn-area">
+        <button  class="play-btn" id="stay-btn" onclick="stay()">STAY</button>
+        <button class="play-btn" id="hit-btn" onclick= "randomCard()">HIT</button>
+    </div>
+
+   
+
+</body>
+<script src="script.js"></script>
+</html>
